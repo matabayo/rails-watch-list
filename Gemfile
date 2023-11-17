@@ -56,6 +56,8 @@ group :development do
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
+  gem "dotenv-rails"
+
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
@@ -70,3 +72,4 @@ gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
 gem "sassc-rails"
+gem "cloudinary"
